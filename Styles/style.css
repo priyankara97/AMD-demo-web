@@ -1,0 +1,143 @@
+.calbody {
+    text-align: center;
+    background-color: #2CBCB0;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 4%;
+    padding: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.no {
+    border: 1px blue;
+    background-color: #33ff33;
+    border: 1px seashell;
+    border-radius: 40px;
+    width: 12%;
+    padding: 15px;
+
+    font-size: 20px;
+    color: white;
+
+}
+
+.operations {
+    background-color: black;
+    color: aliceblue;
+    width: 12%;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 35px;
+    border-color: white;
+    border: 1px solid;
+}
+
+
+
+.btn-off {
+    background-color: red;
+    color: white;
+    border: 1px solid;
+    border-color: red;
+    font-size: 14px;
+    border-radius: 35px;
+    width: 12%;
+    padding: 15px;
+
+
+
+
+}
+
+.btn-on {
+
+    background-color: blue;
+    color: white;
+
+    border: 1px solid;
+    border-color: blue;
+    font-size: 14px;
+    border-radius: 35px;
+    width: 12%;
+    padding: 15px;
+
+}
+
+.btn-ac {
+
+    background-color: blue;
+    color: white;
+
+    border: 1px solid;
+    border-color: blue;
+    font-size: 14px;
+    border-radius: 35px;
+    width: 12%;
+    padding: 15px;
+
+}
+
+.btn-delete {
+
+    background-color: blue;
+    color: white;
+
+    border: 1px solid;
+    border-color: blue;
+    font-size: 14px;
+    border-radius: 35px;
+    width: 12%;
+    padding: 15px;
+
+}
+
+.switch {
+    border: 1px solid;
+    padding: 15px;
+    width: 30%;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.output {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 8%;
+    border: 1px solid;
+    padding: 10px;
+    width: 12%;
+}
+
+@media (max-width: 768px) {
+
+    .calbody,
+    .output {
+        width: 79%;
+        margin: 0 auto;
+    }
+}

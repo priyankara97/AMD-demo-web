@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/style.css" />
+</head>
+
+<body>
+
+    <div class="calbody">
+
+
+        <h1 class="name">CALCULATOR</h1>
+        <br>
+        <div>
+            <div class="">
+                <p class="switch" id="answer">****CANON****</p>
+                <button class="btn-off" onclick="turnOff()">OFF</button>
+                <button class="btn-on" onclick="resetAndTurnOn()">ON</button>
+
+
+            </div>
+
+            <br>
+            <button onclick="numbers('7')" class="no">7</button>
+            <button onclick="numbers('8')" class="no">8</button>
+            <button onclick="numbers('9')" class="no">9</button>
+
+            <!-- <button class="btn-delete" id="ac" onclick="reset()">x</button> -->
+            <button class="btn-delete" id="ac" onclick="del()">x</button>
+
+
+            <button class="btn-ac" id="ac" onclick="reset()">AC</button>
+            <br>
+
+
+            <!-- <button onclick="numbers('-')" class="operations" >-</button> -->
+            <br>
+
+            <button onclick="numbers('4')" class="no">4</button>
+            <button onclick="numbers('5')" class="no">5</button>
+            <button onclick="numbers('6')" class="no">6</button>
+            <button onclick="numbers('/')" class="operations">/</button>
+            <button onclick="numbers('-')" class="operations">-</button>
+
+            <!-- <button onclick="numbers('+')" class="operations" >÷</button>
+            <button onclick="numbers('-')" class="operations" >X</button> -->
+            <br>
+            <br>
+            <button onclick="numbers('1')" class="no">1</button>
+            <button onclick="numbers('2')" class="no">2</button>
+            <button onclick="numbers('3')" class="no">3</button>
+            <button onclick="numbers('*')" class="operations">*</button>
+            <button onclick="numbers('+')" class="operations">+</button>
+            <br>
+            <br>
+            <button onclick="numbers('0')" class="no">0</button>
+            <button onclick="numbers('00')" class="no">00</button>
+            <button onclick="numbers('.')" class="no">.</button>
+            <button onclick="numbers('√ ')" class="operations">√ </button>
+            <button onclick="calculate()" class="operations">=</button>
+            <br>
+            <br>
+
+
+
+
+
+
+
+
+
+            <div id="answer"></div>
+
+
+        </div>
+    </div>
+    <script src="Js/main.js"></script>
+</body>
+
+</html>
