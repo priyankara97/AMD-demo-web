@@ -79,6 +79,3 @@ function reset() {
 }
 
 
-function sum(){
-  console.log("hello")
-}
