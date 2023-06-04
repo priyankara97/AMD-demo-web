@@ -78,3 +78,7 @@ function reset() {
   calculation = ""; // Reset the calculation expression
 }
 
+
+function sum(){
+  
+}
